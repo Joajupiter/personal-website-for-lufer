@@ -85,7 +85,8 @@
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      outDir: 'dist',
+      assetsInclude: ['**/*.fbx', '**/*.glb', '**/*.gltf'],
     },
     server: {
       port: 3000,
